@@ -50,11 +50,6 @@ function createWidget(amount, currency, img) {
   amountTxt.textColor = Color.orange()
   amountTxt.font = Font.systemFont(16)
   amountTxt.centerAlignText()
-
-//   let currencyTxt = w.addText(currency)
-//   currencyTxt.textColor = Color.gray()
-//   currencyTxt.font = Font.systemFont(10)
-//   currencyTxt.centerAlignText()
   
   w.addSpacer(8)
 
