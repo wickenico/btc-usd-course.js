@@ -44,3 +44,4 @@
  - Change currceny name in headline
  - Add rounding for numbers
  - Add up and down tracker
+ - Add parameter for currency and coin
