@@ -16,7 +16,7 @@ const req = new Request(url)
 const res = await req.loadJSON()
 const amount = res.data.amount;
 const currency = res.data.currency;
-const i = new Request('https://freepngimg.com/download/temp/59790-logo-litecoin-bitcoin-cash-png-image-high-quality_64x64.ico')
+const i = new Request('https://icons.iconarchive.com/icons/froyoshark/enkel/96/Bitcoin-icon.png')
 const img = await i.loadImage()
 
 
@@ -36,8 +36,10 @@ function createWidget(amount, currency, img) {
   w.backgroundColor = new Color("#1A1A1A")
 
   let image = w.addImage(img)
-  image.imageSize = new Size(50,50)
+  image.imageSize = new Size(45, 45)
   image.centerAlignImage()
+
+  w.addSpacer(8)
 
   let staticText = w.addText("Bitcoin - Dollar:")
   staticText.textColor = Color.white()
@@ -51,11 +53,11 @@ function createWidget(amount, currency, img) {
   amountTxt.font = Font.systemFont(16)
   amountTxt.centerAlignText()
 
-//   let currencyTxt = w.addText(currency)
-//   currencyTxt.textColor = Color.gray()
-//   currencyTxt.font = Font.systemFont(10)
-//   currencyTxt.centerAlignText()
-  
+  //   let currencyTxt = w.addText(currency)
+  //   currencyTxt.textColor = Color.gray()
+  //   currencyTxt.font = Font.systemFont(10)
+  //   currencyTxt.centerAlignText()
+
   w.addSpacer(8)
 
   // Show current date in format Day. Month Year
@@ -63,7 +65,7 @@ function createWidget(amount, currency, img) {
   let lastDate = w.addDate(currentDate);
   lastDate.textColor = Color.gray()
   lastDate.font = Font.mediumSystemFont(10)
-  lastDate.centerAlignText();  
+  lastDate.centerAlignText();
 
   w.setPadding(0, 0, 0, 0)
   return w
