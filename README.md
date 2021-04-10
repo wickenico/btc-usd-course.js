@@ -1,10 +1,10 @@
 # btc-usd-course.js
  A Scriptable widget that shows the current bitcoin course in US-Dollar based on coinbase
 
- ![bitcoin-usd-course-widget-small](img/bitcoin-usd-course-widget-small.png)
-
- ![GitHub last commit](https://img.shields.io/github/last-commit/wickenico/btc-usd-course.js) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/wickenico/btc-usd-course.js)
+![GitHub last commit](https://img.shields.io/github/last-commit/wickenico/btc-usd-course.js) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/wickenico/btc-usd-course.js)
  ![Visits Badge](https://badges.pufler.dev/visits/wickenico/btc-usd-course.js)
+
+ ![bitcoin-usd-course-widget-small](img/bitcoin-usd-course-widget-small.png)
 
  <p>
    <a href="#setup">Setup</a> •
